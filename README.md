@@ -16,13 +16,9 @@ DamnedStatistics is a CSV editor with extended functionality that enables multip
 
 ### Gemini API Key Setup  
 1. Visit the [Google Gemini API documentation](https://ai.google.dev/gemini-api/docs/api-key).  
-   ![image](https://github.com/user-attachments/assets/1de3c176-ce34-47c8-baa3-ecd9a45f69d1)  
 2. Create a project at [Google Cloud Console](https://console.cloud.google.com/projectcreate?pli=1&inv=1&invt=AbzgOw).  
-   ![image](https://github.com/user-attachments/assets/52912450-78db-427a-ad60-b77b2f54743b)  
 3. Select **Create API Key**, then **Project** from the dashboard.  
-   ![image](https://github.com/user-attachments/assets/b4f8e770-9d9d-45b1-8c28-8ae13e28e703)  
 4. Copy your API key for use in DamnedStatistics.  
-   ![image](https://github.com/user-attachments/assets/4276634b-c6d0-4fe7-9b89-6a74a690d6d8)  
 
 ---
 
@@ -33,19 +29,14 @@ https://www.gov.uk/government/publications/recommended-open-standards-for-govern
 To run DamnedStatistics, execute the `UI.py` file located in the `frontend` folder.  
 
 > **Note:** A Gemini API key is required for AI-generated responses.  
-![image](https://github.com/user-attachments/assets/a5c67ac1-be01-42bf-b487-2a2c0cd49b2d)  
 
-1. Select data cells to include.  
-   ![image](https://github.com/user-attachments/assets/5ed1e5b1-c72e-4f91-ae5e-41490ffd0d92)  
+1. Select data cells to include.
 2. Click **"Add selected data to prompt"** to transfer rows into the AI input.  
-   ![image](https://github.com/user-attachments/assets/c66cd91f-6051-4e53-a954-14023827d231)  
 3. Rows with selected data are added to the prompt, with column headers, and "NI" marking unselected data in included rows.  
 
 > **Note:** If the dataset contains significant missing data, Gemini AI will generate lower-quality responses.  
-   ![image](https://github.com/user-attachments/assets/754fdf8a-8bae-4757-9467-e0b1f1b209b4)  
 
 Upon prompt submission, the software waits for a response from the Gemini API and then displays the generated response in a pop-up window.  
-   ![image](https://github.com/user-attachments/assets/728a10a4-6ce0-4232-8359-2494147b7a9c)  
 
 ---
 
