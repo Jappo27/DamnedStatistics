@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Japp"
+  given-names: "Oliver"
+
+title: "Damn Statistics"
+version: 1.0
+date-released: 2025-06-27
+url: "https://github.com/Jappo27/DamnStatistics/edit/main/README.md"
